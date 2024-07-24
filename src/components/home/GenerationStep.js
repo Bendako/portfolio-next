@@ -6,6 +6,9 @@ const generationStepData = [
     {icon : <ArrowUpOnSquareIcon className='w-10 h-10 inline-block mr-2' />, description : "Step 1 Desciption"},
     {icon : <DocumentTextIcon className='w-10 h-10 inline-block mr-2' />, description : "Step 2 Desciption"},
     {icon : <ArrowDownOnSquareIcon className='w-10 h-10 inline-block mr-2' />, description : "Step 3 Desciption"},
+    {icon : <ArrowUpOnSquareIcon className='w-10 h-10 inline-block mr-2' />, description : "Step 1 Desciption"},
+    {icon : <DocumentTextIcon className='w-10 h-10 inline-block mr-2' />, description : "Step 2 Desciption"},
+    {icon : <ArrowDownOnSquareIcon className='w-10 h-10 inline-block mr-2' />, description : "Step 3 Desciption"},
 ]
 
 function GenerationStep(){

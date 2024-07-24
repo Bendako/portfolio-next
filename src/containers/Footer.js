@@ -7,19 +7,19 @@ function Footer() {
         <div className="bg-slate-50 flex justify-center">
             <footer className="footer pt-10 pb-24 px-4 max-w-6xl  text-base-content">
         <div>
-            <p className="font-bold text-2xl">Web Design AI<br/></p>
+            <p className="font-bold text-2xl">Something<br/></p>
        </div> 
   <div>
-    <span className="footer-title">Information</span> 
-    <Link href="/about-us" className="link link-hover">About Us</Link> 
-    <Link href="/faqs" className="link link-hover">FAQs</Link> 
+    <span className="footer-title">Something</span> 
+    <Link href="/about-us" className="link link-hover">Something 1</Link> 
+    <Link href="/faqs" className="link link-hover">Something 2</Link> 
   </div> 
   <div>
-    <span className="footer-title">Legal</span> 
-    <Link href="/privacy-policy" className="link link-hover">Privacy Policy</Link> 
-    <Link href="/terms-and-conditions" className="link link-hover">Terms and Conditions</Link> 
+    <span className="footer-title">Something</span> 
+    <Link href="/privacy-policy" className="link link-hover">Something 1</Link> 
+    <Link href="/terms-and-conditions" className="link link-hover">Something 2</Link> 
   </div> 
-  <div>
+  {/* <div>
     <span className="footer-title">Social</span> 
     <div className="grid grid-flow-col gap-4">
       <Link href="/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/></svg></Link>
@@ -30,12 +30,12 @@ function Footer() {
       <Link href="/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></Link>
       <Link href="/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"/></svg></Link>
     </div>
-  </div>
+  </div> */}
 </footer>
         </div>
         <div className="p-4 flex justify-center bg-secondary">
         <div className="max-w-5xl text-slate-50">
-          <p>Copyright © 2023 - All right reserved</p>
+          <p>Copyright © 2024 - All right reserved</p>
         </div> 
         </div>
         </div>

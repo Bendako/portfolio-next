@@ -6,7 +6,7 @@ import FeatureImageContainer from "../common/FeatureImageContainer"
 function FeatureSection({title, leftText, showHeading}){
     return(
         <>
-        {showHeading && <h2 className="text-3xl mt-12 text-center font-bold">Unveiling Our Potential</h2>}
+        {showHeading && <h2 className="text-3xl mt-12 text-center font-bold">Projects</h2>}
         <div className={`grid place-items-center w-full ${leftText ? "" : ""}`}>
             <div className="max-w-6xl px-4 py-12 content-center justify-center">
                 <div className="grid  md:grid-cols-2 grid-cols-1 gap-8">

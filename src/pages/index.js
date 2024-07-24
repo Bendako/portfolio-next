@@ -22,15 +22,15 @@ export default function Home() {
     </div>
         <Hero />
         <GenerationStep />
-        <FeatureSection showHeading={true} title="Feature title 1"/>
+        <FeatureSection showHeading={true} title="Project 1"/>
 
-        <FeatureSection title="Featuer title 2" leftText="1" />
+        <FeatureSection title="Project 2" leftText="2" />
 
-        <FeatureSection title="Feature title 3"/>
+        <FeatureSection title="Project 3"/>
 
-        <Testimonials />
-        <Pricing />
-        <CTA2 />
+        {/* <Testimonials /> */}
+        {/* <Pricing /> */}
+        {/* <CTA2 /> */}
     </>
   )
 }
