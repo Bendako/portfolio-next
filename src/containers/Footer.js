@@ -4,11 +4,11 @@ import Link from "next/link"
 function Footer() {
     return(
         <div>
-        <div className="bg-slate-50 flex justify-center">
+          <div className="bg-slate-50 text-center flex justify-center">
             <footer className="footer pt-10 pb-24 px-4 max-w-6xl  text-base-content">
-        <div>
-            <p className="font-bold text-2xl">Something<br/></p>
-       </div> 
+              <div>
+                <p className="font-bold text-center text-2xl">Something<br/></p>
+              </div> 
   <div>
     <span className="footer-title">Something</span> 
     <Link href="/about-us" className="link link-hover">Something 1</Link> 
