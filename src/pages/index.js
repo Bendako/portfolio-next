@@ -16,10 +16,10 @@ export default function Home() {
   return (
     <>
       <PageMetaTags title="Home" description={""} url=""/>
-    <div itemScope itemType="https://schema.org/WebSite">
+    {/* <div itemScope itemType="https://schema.org/WebSite">
       <meta itemProp="url" content="https://www.webdesignai.com/"/>
       <meta itemProp="name" content="Web Design AI"/>
-    </div>
+    </div> */}
         <Hero />
         {/* <GenerationStep /> */}
         <FeatureSection showHeading={true} title="Project 1"/>
