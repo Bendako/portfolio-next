@@ -21,7 +21,7 @@ export default function Home() {
       <meta itemProp="name" content="Web Design AI"/>
     </div>
         <Hero />
-        <GenerationStep />
+        {/* <GenerationStep /> */}
         <FeatureSection showHeading={true} title="Project 1"/>
 
         <FeatureSection title="Project 2" leftText="2" />
