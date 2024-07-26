@@ -72,15 +72,18 @@ export default function Layout({ children }) {
                </div> 
           </div> 
 
-          <div className="drawer-side ">
-              <label htmlFor="my-drawer-3" className="drawer-overlay"></label> 
-              <ul className="menu p-4 w-80 h-full bg-base-100">
-                <li className="mr-2"><Link href="/">Home</Link></li>
-                  <Navlinks />
-                  <div className="mt-12"></div>
-                  <NavProfileLinks />
-              </ul>
-          </div>
+          <div className="drawer-side">
+  <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
+  <div className="menu p-4 w-80 h-full bg-base-100 flex flex-col">
+    <ul className="space-y-2">
+      <li><Link href="/" className="btn btn-ghost justify-start">Home</Link></li>
+      <Navlinks />
+    </ul>
+    <div className="mt-6 pt-4 border-t border-base-300">
+      <NavProfileLinks />
+    </div>
+  </div>
+</div>
       </div>
 
       <LeftSidebar />
