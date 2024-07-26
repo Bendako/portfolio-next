@@ -19,7 +19,7 @@ function Hero(){
                         Fullstack Developer
                     </h1>
                         <p className="py-2 text-xl text-center text-slate-100 mt-4 pr-4">
-                            I&apos;m a passionate junior web developer with a strong foundation in creating dynamic and responsive web applications. 
+                            I&apos;m a passionate junior fullstack developer with a strong foundation in creating dynamic and responsive web applications. 
                             I excel at turning complex problems into simple, beautiful, and intuitive designs. My experience encompasses building scalable and efficient web applications, with a focus on robust data management.
                             <br /><br />
                             Thriving in collaborative environments, I&apos;m always eager to learn and adapt to new technologies. My goal is to continually grow as a developer while contributing to innovative projects that make a difference.
