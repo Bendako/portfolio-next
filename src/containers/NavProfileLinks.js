@@ -6,6 +6,8 @@ import { fetchUserDetail, setLoggedIn } from "@/store/userSlice"
 import { useEffect } from "react"
 import CircleStackIcon from '@heroicons/react/24/outline/CircleStackIcon'
 import { Linkedin, Github, Mail  } from 'lucide-react';
+import { FaWhatsapp } from "react-icons/fa";
+
 
 
 
@@ -55,6 +57,14 @@ function NavProfileLinks() {
                 className="btn btn-sm btn-ghost p-2"
             >
                 <Mail className="w-5 h-5" />
+            </a>
+            <a   
+                rel="noreferrer" 
+                target="_blank"  
+                className="btn btn-sm btn-ghost p-2" 
+                href="https://wa.me/+972546255880"
+            >
+                <FaWhatsapp className="w-5 h-5" />
             </a>
         </div>
     )
