@@ -66,7 +66,7 @@ export default function Layout({ children }) {
 
                   <div className="overflow-y-auto">
                       <main>{children}</main>
-                      <Footer />
+                      {/* <Footer /> */}
                   </div>
                   
                </div> 
