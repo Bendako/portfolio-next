@@ -1,17 +1,15 @@
-
-// const ProjectData = {
-//     name: "Project 1",
-//     description: "Project 1 description",
-//     img: "Project 1 image",
-// }
+import Image from "next/image"
 
 const Card = ({ name, description, img }) => {
     return (
         <div className="card m-4 lg:card-side bg-base-100 shadow-xl">
             <figure>
-                <img
-                src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
-                alt="Album" />
+            <Image 
+                    src={typeof img === 'string' ? img : img.src} 
+                    alt={name}
+                    width={350} 
+                    height={350}
+                />
             </figure>
             <div className="card-body">
                 <h2 className="card-title">{ name }</h2>
