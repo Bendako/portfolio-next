@@ -7,7 +7,7 @@ import PageMetaTags from "@/containers/PageMetaTags";
 export default function Page() {
     return (
       <InnerPageContainer>
-            <PageMetaTags title="" description={""} url="/pricing"/>
+            <PageMetaTags title="" description={""} url="/skills"/>
             <GenerationStep />
       </InnerPageContainer>
     )
