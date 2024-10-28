@@ -10,9 +10,13 @@ export default function Page() {
             <PageMetaTags url="/projects"/>
             <div className="mt-12">
               <Card 
-                name="Project 1" 
+                name="Store" 
                 description="Project 1 description" 
                 img={mixed}
+                githubUrl="https://github.com/Bendako/store-next"
+                liveUrl="https://store-next-gamma.vercel.app/"
+
+
                 
               />
               <Card 
